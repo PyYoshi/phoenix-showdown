@@ -41,6 +41,12 @@ brew install caskroom/cask/brew-cask
 brew cask install java
 (cd play/benchmarker && ./activator clean stage)
 
+# bootstrap phalcon
+brew tap homebrew/dupes
+brew tap homebrew/versions
+brew tap homebrew/php
+brew install php5x php5x-phalcon
+
 # install forego/wrk to do the benchmarking
 brew install forego
 brew install wrk
