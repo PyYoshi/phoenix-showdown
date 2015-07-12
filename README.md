@@ -34,6 +34,7 @@ In the end, I had a comparison of the following:
  * Sinatra (Ruby) - ERB
  * Express (NodeJS) - EJS
  * Martini (Go) - `template/html`
+ * Phalcon (PHP) - ``\Phalcon\Mvc\View\Engine\Volt``
 
 ## Compared to @chrismccord's original tests
 For the most part I tried to keep things as close as possible to the original
